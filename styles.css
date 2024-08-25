@@ -60,3 +60,16 @@ a:hover {
     text-align: center;
     margin: 20px 0;
 }
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 4px;
+    }
+}
